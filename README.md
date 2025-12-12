@@ -23,7 +23,7 @@ AchadosJR — Deploy Cloudflare (Pages + Worker)
    - Deploy (Cloudflare fará o deploy)
 
 5) Teste:
-   - Admin: https://<your-site>.pages.dev/admin.html
+   - Admin: https://achadosjr.pages.dev//admin.html
      Senha: admin123
      Cole link afiliado (p.ex. seu /sec/...) -> Adicionar
    - Home: https://<your-site>.pages.dev
@@ -31,3 +31,4 @@ AchadosJR — Deploy Cloudflare (Pages + Worker)
 Observações:
 - Se houver erro "ID não encontrado" tente colar o link final (abra o /sec/ no navegador e copie o URL final) — mas Worker já tenta seguir redirecionamento.
 - Para produção você pode trocar a senha fixa por um segredo (Workers Secret + Pages secret) depois.
+
