@@ -1,5 +1,5 @@
 // script.js (shared)
-const WORKER_URL = "https://WORKER_URL_PLACEHOLDER"; // <<< REPLACE ME with your Worker URL
+const WORKER_URL = "achadosjr.pages.dev"; // <<< REPLACE ME with your Worker URL
 const API_ADD = `${WORKER_URL}/add`;
 const API_LIST = `${WORKER_URL}/list`;
 const API_DELETE = `${WORKER_URL}/delete?senha=admin123&id=`;
@@ -54,3 +54,4 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
 // expose helper for admin page to refresh list if admin and public same origin
 window.AchadosJR = { loadPublicProducts };
+
