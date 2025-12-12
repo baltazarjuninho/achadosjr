@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AchadosJR — Ofertas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>AchadosJR</h1></header>
+
+  <main class="container">
+    <div class="toolbar">
+      <input id="search" placeholder="Pesquisar..." />
+      <select id="sort">
+        <option value="new">Mais recentes</option>
+        <option value="cheap">Menor preço</option>
+        <option value="expensive">Maior preço</option>
+      </select>
+    </div>
+
+    <section id="list">
+      <p id="empty">Carregando produtos...</p>
+      <ul id="products" class="grid"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
