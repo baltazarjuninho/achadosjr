@@ -1,5 +1,5 @@
 // admin.js
-const WORKER_URL = https://achadosjr.pages.dev; // <<< REPLACE ME
+const WORKER_URL = "https://achadosjr.pages.dev"; // <<< REPLACE ME
 const API_ADD = `${WORKER_URL}/add`;
 const API_LIST = `${WORKER_URL}/list`;
 const API_DELETE = `${WORKER_URL}/delete`;
@@ -102,4 +102,5 @@ byId('btnClear').addEventListener('click', async ()=>{
     if(window.opener && window.opener.AchadosJR) window.opener.AchadosJR.loadPublicProducts();
   }catch(e){ alert('Erro ao limpar'); }
 });
+
 
